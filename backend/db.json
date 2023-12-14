@@ -4,55 +4,64 @@
       "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 4,
       "conteudo": "estudar GO",
       "autoria": "Bruno SA",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "conteudo": "estudar PHP",
       "autoria": "Bruno",
       "modelo": "modelo3",
-      "id": 5
+      "id": 5,
+      "favorito": false
     },
     {
       "id": 6,
       "conteudo": "Estudando Javascript",
       "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 7,
       "conteudo": "estudar TypeScript",
       "autoria": "Bruno SA",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "conteudo": "estudar SQL",
       "autoria": "Bruno",
       "modelo": "modelo1",
-      "id": 8
+      "id": 8,
+      "favorito": false
     },
     {
       "id": 9,
       "conteudo": "Estudando React",
       "autoria": "Dev Alura",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
       "id": 10,
       "conteudo": "estudar Java",
       "autoria": "Bruno SA",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "conteudo": "estudar C#",
       "autoria": "Bruno",
       "modelo": "modelo2",
-      "id": 11
+      "id": 11,
+      "favorito": false
     }
   ]
 }
