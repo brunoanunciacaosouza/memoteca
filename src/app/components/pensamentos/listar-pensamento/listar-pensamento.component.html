@@ -12,7 +12,7 @@
       <img src="../../../../assets/imagens/lupa.png" alt="Lupa azul" />
     </div>
 
-    <h2 class="ff-inter">Meu Mural</h2>
+    <h2 class="ff-inter">{{ titulo }}</h2>
 
     <div class="botoes">
       <button class="botao" (click)="recarregarComponente()">Meu Mural</button>
@@ -31,12 +31,14 @@
       ></app-pensamento>
     </div>
   </div>
-</section>
 
-<app-botao-carregar-mais
-  [haMaisPensamentos]="haMaisPensamentos"
-  (click)="carregarMaisPensamentos()"
-></app-botao-carregar-mais>
+  <div class="mural" *ngIf="listaPensamentos.length > 0">
+    <app-botao-carregar-mais
+      [haMaisPensamentos]="haMaisPensamentos"
+      (click)="carregarMaisPensamentos()"
+    ></app-botao-carregar-mais>
+  </div>
+</section>
 
 <ng-template #semPensamentos>
   <div class="ff-inter sem-pensamentos">
