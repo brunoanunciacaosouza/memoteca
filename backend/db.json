@@ -15,8 +15,44 @@
     {
       "conteudo": "estudar PHP",
       "autoria": "Bruno",
-      "modelo": "modelo2",
+      "modelo": "modelo3",
       "id": 5
+    },
+    {
+      "id": 6,
+      "conteudo": "Estudando Javascript",
+      "autoria": "Dev Alura",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 7,
+      "conteudo": "estudar TypeScript",
+      "autoria": "Bruno SA",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "estudar SQL",
+      "autoria": "Bruno",
+      "modelo": "modelo1",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "conteudo": "Estudando React",
+      "autoria": "Dev Alura",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 10,
+      "conteudo": "estudar Java",
+      "autoria": "Bruno SA",
+      "modelo": "modelo1"
+    },
+    {
+      "conteudo": "estudar C#",
+      "autoria": "Bruno",
+      "modelo": "modelo2",
+      "id": 11
     }
   ]
 }
